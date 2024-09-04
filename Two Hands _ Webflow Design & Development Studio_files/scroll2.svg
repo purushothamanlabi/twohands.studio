@@ -1,0 +1,11 @@
+<svg width="208" height="117" viewBox="0 0 208 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="208" height="117" rx="8" fill="white" fill-opacity="0.5"/>
+<rect x="0.5" y="0.5" width="207" height="116" rx="7.5" stroke="#181A1D" stroke-opacity="0.1" stroke-dasharray="3 3"/>
+<path d="M0 8C0 3.58172 3.58172 0 8 0L200 0C204.418 0 208 3.58172 208 8V109C208 113.418 204.418 117 200 117H8.00001C3.58173 117 0 113.418 0 109L0 8Z" fill="white"/>
+<rect x="24" y="24" width="73" height="11" rx="4" fill="#EEEEEE"/>
+<rect x="24" y="43" width="73" height="30" rx="4" fill="#EEEEEE"/>
+<rect x="24" y="81" width="25" height="12" rx="4" fill="#EEEEEE"/>
+<rect x="114" y="24.5" width="70" height="68" rx="4" fill="#EEEEEE"/>
+<path d="M104 48C98.15 48 93.5 52.65 93.5 58.5C93.5 64.35 98.15 69 104 69C109.85 69 114.5 64.35 114.5 58.5C114.5 52.65 109.85 48 104 48ZM104 67.5C99.05 67.5 95 63.45 95 58.5C95 53.55 99.05 49.5 104 49.5C108.95 49.5 113 53.55 113 58.5C113 63.45 108.95 67.5 104 67.5Z" fill="#181A1D"/>
+<path d="M108.05 63.75L104 59.7L99.95 63.75L98.75 62.55L102.8 58.5L98.75 54.45L99.95 53.25L104 57.3L108.05 53.25L109.25 54.45L105.2 58.5L109.25 62.55L108.05 63.75Z" fill="#181A1D"/>
+</svg>
