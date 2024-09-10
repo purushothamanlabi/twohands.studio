@@ -269,35 +269,36 @@ main .spacer-small-three {
 
 
 
-/* -0------------- */
+/* Small Section Styles */
 .small-sec {
-    padding-right: 3%;
-    padding-left: 3%;
+    padding: 0 3%;
     background-color: inherit;
     width: 100%;
-    box-sizing: border-box !important; 
+    box-sizing: border-box;
 }
 
 .small-sec .three-item {
+  height: 30px;
     width: 100%;
     display: flex;
     padding: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
     border-left: 1px dashed #d4d4d4;
     border-right: 1px dashed #d4d4d4;
-
+    border-bottom: 1px dashed #d4d4d4;
 }
 
 .three-item .items {
     height: 100%;
     display: flex;
     align-items: center;
-    /* border-right: 1px solid #d4d4d4; */
     padding-right: 20px;
+    border-right: 1px solid #d4d4d4; /* Added border between items */
+    justify-content: center;
 }
 
 .three-item .items:last-child {
-    border-right: none;
+    border-right: none; /* Remove border from the last item */
 }
 
 .three-item .items h1 {
@@ -309,8 +310,6 @@ main .spacer-small-three {
     width: 24px;
     height: 24px;
 }
-
-
 
 
 /* ------------------------ */
@@ -380,31 +379,29 @@ main .spacer-small-three {
     border-left: 1px dashed #d4d4d4;
     border-right: 1px dashed #d4d4d4;
     border-bottom: 1px solid #e5e5e5;
-    /* margin: 0 auto; Center the section horizontally */
-    margin:  0% 4%;
-    width: 90%; /* Control the width of the section */
+    margin: 0 3%;
+    width: 94%;
 }
 
 /* Container Styles */
 .two-profile .container {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping of profiles */
-    gap: 20px; /* Space between profile items */
-    justify-content: center; /* Center-align profiles horizontally */
-    max-width: 1200px; /* Limit maximum width for better readability */
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
     width: 100%;
- 
 }
 
 /* Profile Styles */
 .two-profile .profile {
-    flex: 1 1 45%; /* Flex-grow, flex-shrink, and flex-basis */
+    flex: 1 1 45%;
     display: flex;
     flex-direction: column;
     padding: 0px 30px;
     align-items: center;
     text-align: center;
-    box-sizing: border-box; /* Include padding and border in width */
+    box-sizing: border-box;
 }
 
 /* Heading Styles */
@@ -419,8 +416,8 @@ main .spacer-small-three {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; /* Center-align items */
-    gap: 20px; /* Space between image and text */
+    justify-content: center;
+    gap: 20px;
 }
 
 /* Image Styles */
@@ -438,12 +435,12 @@ main .spacer-small-three {
 
 @media (max-width: 768px) {
     .two-profile .profile {
-        flex: 1 1 100%; /* Stack profiles on top of each other */
+        flex: 1 1 100%;
         margin-bottom: 40px;
     }
 
     .two-profile .img-and-txt {
-        flex-direction: column; /* Stack image and text vertically */
+        flex-direction: column;
         align-items: center;
     }
 }
@@ -464,10 +461,9 @@ main .spacer-small-three {
 
 
 
-
 /* -------------------------------- */
 .problem-section {
-  width: 96%; /* Adjusted to account for left and right margins */
+  width: 94%; /* Adjusted to account for left and right margins */
   margin-left: 3%;
   margin-right: 3%;
   border-left: 1px dashed #d4d4d4;
@@ -487,7 +483,8 @@ main .spacer-small-three {
 }
 
 .problem-section .problem-section-h3 {
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
+  padding-top: 8rem;
     font-size: 14px;
     color: #666;
     text-transform: uppercase;
@@ -509,6 +506,8 @@ main .spacer-small-three {
 }
 
 .problem-section .card-flex {
+  /* padding-top: 4rem; */
+  width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -631,7 +630,8 @@ main .spacer-small-three {
   position: relative;
   border-left: 1px dashed #d4d4d4;
   border-right: 1px dashed #d4d4d4;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px dashed #d4d4d4;
+  border-top: 1px dashed #d4d4d4;
 }
 .solution-container {
   position: sticky;
@@ -803,18 +803,24 @@ main .spacer-small-three {
 .small-teams {
   padding: 80px 0;
   background-color: inherit;
+  width: 94%;
+  box-sizing: border-box;
+  border-left: 1px dashed #d4d4d4;
+  border-right: 1px dashed #d4d4d4;
+  border-bottom: 1px dashed #d4d4d4;
+  margin: 0 3%;
 }
 
-.small-teams .work{
+.small-teams .work {
   margin-bottom: 2rem;
 }
 
 .small-teams .container {
-  padding-left: 2rem;
-
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .small-teams p {
@@ -825,7 +831,7 @@ main .spacer-small-three {
 }
 
 .small-teams h1 {
-margin-top: 0;
+  margin-top: 0;
   text-align: center;
   font-size: 56px;
   color: #333;
@@ -836,6 +842,7 @@ margin-top: 0;
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  width: 100%;
 }
 
 .small-team-card-item {
@@ -843,15 +850,16 @@ margin-top: 0;
   background-color: #fff;
   border-radius: 8px;
   padding: 30px;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   text-align: center;
+  width: 100%;
+  /* border: 1px dashed #d4d4d4; */
 }
 
 .small-team-card-item img {
   border-radius: 13px;
   width: 100%;
-  /* height: 80px; */
   margin-bottom: 20px;
+  object-fit: cover;
 }
 
 .small-team-card-item h1 {
@@ -875,9 +883,9 @@ margin-top: 0;
 
   .small-team-card-item {
     margin-bottom: 20px;
+    width: 100%;
   }
 }
-
 
 
 
@@ -983,12 +991,15 @@ margin-top: 0;
 
 
 /* ======================= */
-
-.footer-sec{
+.footer-sec {
   padding-top: 2rem;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 2rem;
+  width: 94%;
+  margin: 0 3%;
+  text-align: center;
+  padding-bottom: 2rem;
+  /* border-bottom: 1px dashed #d4d4d4; */
+  border-left: 1px dashed #d4d4d4;
+  border-right: 1px dashed #d4d4d4;
 }
 
 .footer-sec .foot-text{
@@ -1118,13 +1129,11 @@ margin-top: 0;
 .faq-section {
   border-right: 1px dashed #d4d4d4;
   border-left: 1px dashed #d4d4d4;
-  border-bottom: 1px dashed #d4d4d4 ;
-  padding-top: 3rem;
-  box-sizing: border-box;
-  max-width: 90%;
-  margin: 0 auto;
-  padding: 20px;
+  border-bottom: 1px dashed #d4d4d4;
   padding: 5rem;
+  box-sizing: border-box;
+  width: 94%;
+  margin: 0 3%;
 }
 
 .faq-section p {
